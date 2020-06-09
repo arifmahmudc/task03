@@ -1,0 +1,30 @@
+legend{
+	color: blue;
+}
+.button{
+	width: 100px;
+}
+fieldset{
+	width: 500px;
+}
+#address{
+	font-size: 10px;
+}
+article{
+	margin: 15px
+#nav{
+	text-align: right;
+}
+#navhead{
+	border-color: orange;
+	text-align: center;
+} 15px 15px 15px;
+}
+aside{
+	background-color: lightgray;
+	width: 500px;
+	float: right;
+}
+#video{
+	float: left;		
+}

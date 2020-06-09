@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 04</title>
+	<link rel="stylesheet" href="style.css">
+	<base href="https://www.w3schools.com/" target="_blank">
+	
+</head>
+<body>
+	<fieldset id="navhead">
+		<legend><i>Popular Search Engines: </i></legend>
+		<div id="nav">
+			<a href="https://www.google.com/" target="blank">| Google |</a>
+			<a href="https://www.bing.com/">Bing |</a>
+			<a href="https://www.yahoo.com/" target="blank">Yahoo |</a>
+			<a href="https://duckduckgo.com/" target="blank">DuckDuckGo |</a>
+		</div>
+	</fieldset>
+	<dialog open>Dialog Box for <dfn>Search Engines</dfn></dialog>
+	<aside style="background-color: #b19cd9;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML" width="150"><br>
+		1989: Tim Berners-Lee invents <cite>the Web with HTML as its publishing language.</cite>
+	</aside>
+	<!--
+	<dialog open>This is an open dialog window</dialog>--->
+	<form action="">
+		<fieldset>
+			<legend><b>Enter Your Details</b></legend>
+			<table>
+				
+				<colgroup>
+					<col style="background-color: skyblue;">
+					<col style="background-color: lightgreen;">
+				</colgroup>
+				<caption><u>User Details</u></caption>
+				<tr>
+					<td><label for="one">Name: </label></td>
+					<td><input type="text" id="one" required="" autocomplete="off" style="width: 300px;"></td>
+				</tr>
+				<tr>
+					<td><label for="four">Gender</label></td>
+					<td><input type="radio" value="Male" name="gender" checked=""> Male 
+						<input type="radio" value="Female" name="gender"> Female
+						<input type="radio" value="Other" name="gender"> Other
+					</td>
+				</tr>
+				<tr>
+					<td><label for="six">Language(s) : </label></td>
+					<td><input type="checkbox" name="checkbox" value="ENG" checked="">English
+						<input type="checkbox" name="checkbox" value="BAN">Bangla
+					</td>
+				</tr>
+				<tr>
+					<td><label for="two">Email: </label></td>
+					<td><input type="email" name="" id="two"></td>
+				</tr>
+				<tr>
+					<td><label for="">Student of: </label></td>
+					<td><input type="text" name="" disabled="" value="Online"></td>
+				</tr>
+				<tr>
+					<td><label for="seven">Age: </label></td>
+					<td><input type="number" min="18" max="70"></td>
+				</tr>
+				<tr>
+					<td><label for=""><abbr title="Date of Birth">DOB: </abbr></label></td>
+					<td><input type="date"></td>
+				</tr>
+				<tr>
+					<td><label for="three">Mobile No: </label></td>
+					<td><input type="tel"></td>
+				</tr>
+				<tr>
+					<td><label for="five">Comment: </label></td>
+					<td><textarea name="" id="" cols="50" rows="3" placeholder="Enter Your Comment... "></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="">Favourite Colour: </label></td>
+					<td><input type="color"></td>
+				</tr>
+				<tr>
+					<td><label for="">Income Range: </label></td>
+					<td><input type="range" min="10000" max="100000" value="10000"></td>
+				</tr>
+				<tr>
+					<td><label for="">Image: </label></td>
+					<td><input type="file"></td>
+				</tr>
+				<tr>
+					<td><abbr title="Terms and Condition">T&C: </abbr></td>
+					<td>
+						<ol>
+							<li><data value="100">Your all statements are true;</data></li>
+							<li><data value="200">You have no criminal record; ...</data></li>
+						</ol>
+						<ol start="50">
+							<li>You accept everything;</li>
+							<li>You understand everything.</li>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td>Using Device: </td>
+					<td><input list="dropdown">
+						<datalist id="dropdown">
+							<option value="None" selected>None</option>
+							<option value="Desktop">Desktop</option>
+							<option value="Laptop">Laptop</option>
+							<option value="Tab">Tab</option>
+						</datalist>
+
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Send" class="button"><button type="button" class="button">Reset</button></td>
+				</tr>
+			</table>	
+		</fieldset>
+	</form>
+	<div id="video">
+		<video width="500px" controls>
+			<source src="http://techslides.com/demos/sample-videos/small.mp4">
+		</video>
+	</div>
+
+	<article>
+		The <abbr title="An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.<br> Potential sources for the &ltarticle&gt element:<br>">&ltarticle&gt</abbr> tag specifies independent, self-contained content. And, <abbr title="The <bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it. This element is useful when embedding user-generated content with an unknown text direction.">BDI</abbr> stands for Bi-Directional Isolation. <bdo dir="rtl"><abbr title=" The <bdo> tag is used to override the current text direction.">BDO</abbr> stands for Bi-Directional Override.</bdo>
+		<ul>
+			<li>Forum post <bdi>ফোরাম পোস্ট </bdi> : 77%</li>
+			<li>Blog post <bdi>Сообщение блога</bdi>: 80%</li>
+			<li>News story <bdi>قصة الاخبار</bdi> : 100%</li>
+		</ul>
+	</article>
+		<aside>
+		<h4>The aside element</h4>
+		<p><abbr title="The <base> tag specifies the base URL and/or target for all relative URLs in a document. The <base> tag must have either an href or a target attribute present, or both. There can only be one single <base> element in a document, and it must be inside the <head> element."><img src="images/stickman.gif" width="24" height="39" alt="Stickman"></abbr>The <code>&ltaside&gt</code> tag defines some content aside from the content it is placed in. The aside content should be indirectly related to the surrounding content. <b>Tip:</b> The &ltaside&gt content is often placed as a sidebar in a document. <b>Note:</b> The &ltaside&gt element does not render as anything special in a browser. However, you can use CSS to style the &ltaside&gt element.</p>
+		<audio controls="">
+			<source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3" type="audio/mpeg">
+		</audio>
+	</aside>
+	<p>
+		<i>HTML &ltblockquote&gt Tag</i>
+		<blockquote>The <code>&ltblockquote&gt</code> tag specifies a section that is <em>quoted </em>from another source.</blockquote>
+	</p>
+	<div style="margin: 130px 0px 0px 0px; width:500px;">
+		<details>
+			<summary>Full Stake Web Developer Need to Know</summary>
+			<p>
+				<dl>
+			<dt>HTML</dt>
+			<dd>Hypertext Markup Language</dd>
+			<dt>CSS</dt>
+			<dd>Cascading Style Sheets</dd>
+			<dt>JAVASCRIPT</dt>
+			<dd>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. </dd>
+			<dt><del>JQuery</del><ins>jQuery</ins></dt>
+			<dd>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. </dd>
+		</dl>
+			</p>
+		</details>		
+	</div>
+	<br>
+	<footer>
+		<address id="address">
+			&ltaddress&gt tag<br>
+		House No: XXX, Road No: YYY, Block: A,<br>
+		Banani Model Town, Dhaka.	
+		</address>
+	</footer>
+</body>
+</html>
